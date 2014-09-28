@@ -48,7 +48,7 @@
 }
 
 - (void)inputAppleIcon {
-    [self.textDocumentProxy insertText:@"⇝"]; // Inserts the string ""
+    [self.textDocumentProxy insertText:@""]; // Inserts the string ""
 }
 
 - (void)didReceiveMemoryWarning {

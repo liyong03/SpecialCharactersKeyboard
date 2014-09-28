@@ -15,6 +15,7 @@
 		4E4E992D197178BF009288BF /* SpecialCharactersKeyboardDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E992C197178BF009288BF /* SpecialCharactersKeyboardDemoTests.m */; };
 		4E4E9940197178E1009288BF /* KeyboardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E4E993F197178E1009288BF /* KeyboardViewController.m */; };
 		4E4E9943197178E1009288BF /* SpecialCharacters.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4E4E993A197178E1009288BF /* SpecialCharacters.appex */; };
+		DF70261A19D846D200AEA8E0 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DF70261919D846D200AEA8E0 /* Launch Screen.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		4E4E993D197178E1009288BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E4E993E197178E1009288BF /* KeyboardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KeyboardViewController.h; sourceTree = "<group>"; };
 		4E4E993F197178E1009288BF /* KeyboardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardViewController.m; sourceTree = "<group>"; };
+		DF70261919D846D200AEA8E0 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,6 +131,7 @@
 				4E4E991D197178BF009288BF /* Main.storyboard */,
 				4E4E9920197178BF009288BF /* Images.xcassets */,
 				4E4E9913197178BF009288BF /* Supporting Files */,
+				DF70261919D846D200AEA8E0 /* Launch Screen.xib */,
 			);
 			path = SpecialCharactersKeyboardDemo;
 			sourceTree = "<group>";
@@ -283,6 +286,7 @@
 			files = (
 				4E4E991F197178BF009288BF /* Main.storyboard in Resources */,
 				4E4E9921197178BF009288BF /* Images.xcassets in Resources */,
+				DF70261A19D846D200AEA8E0 /* Launch Screen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -536,6 +540,7 @@
 				4E4E9932197178BF009288BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E4E9933197178BF009288BF /* Build configuration list for PBXNativeTarget "SpecialCharactersKeyboardDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +549,7 @@
 				4E4E9935197178BF009288BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4E4E9946197178E1009288BF /* Build configuration list for PBXNativeTarget "SpecialCharacters" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +558,7 @@
 				4E4E9948197178E1009288BF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
